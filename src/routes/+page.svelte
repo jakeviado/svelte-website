@@ -25,7 +25,6 @@
 
  <section class="section-contents section-2" >
 	<h2 class="big-header">i heckin' love programming</h2>
-	<img class="pusa" src="src/lib/images/pusa-image.jpg" alt="svelte-icon">
 	<p class="paragraph-contents">i really hecking love programming and designing and i want work and money hehe</p>
 
 	
