@@ -1,13 +1,15 @@
 @import '@fontsource/fira-mono';
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
 
 :root {
 	--font-body: 'Jost';
 	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: rgba(101, 123, 144, 0.765);
-	--color-bg-1: hsl(212, 37%, 78%);
-	--color-bg-2: hsl(220, 9%, 86%);
+	--color-bg-0: rgba(80, 93, 104, 0.267);
+	--color-bg-1: hsla(213, 18%, 52%, 0.242);
+	--color-bg-2: hsla(202, 16%, 60%, 0.354);
 	--color-theme-1: #d5623e;
 	--color-theme-2: #dde2eb;
 	--color-text: rgba(0, 0, 0, 0.7);
@@ -16,7 +18,7 @@
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
 	font-weight: 100;
-	color: var(--color-text);
+	color: var(--color-text-2);
 }
 
 body {
@@ -24,40 +26,38 @@ body {
 	margin: 0;
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
+    color: var(--color-text);
 	background-size: 100vw 100vh;
 	background-image: radial-gradient(
 		50% 50% at 50% 50%,
-		rgba(72, 91, 115, 0.282) 0%,
+		rgba(27, 104, 197, 0.282) 0%,
 		rgba(68, 16, 239, 0.07) 100%
 	),
 	linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
 }
 
-
-
 main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	width: 100%;
+	max-width: 64rem;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 h2{
 	font-family: 'Unbounded';
-	font-size: 2rem;
+	font-size: 2em;
 }
 
 a{
-	color: #d5623e;
     font-weight: 100;
 }
 
 p{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .section-contents{
@@ -77,6 +77,7 @@ p{
 /*scrollbar*/
 ::-webkit-scrollbar {
     width: 1px;
+    overflow: hidden;
 }  
 ::-webkit-scrollbar-thumb {
     background: #000000;
@@ -118,16 +119,11 @@ p{
     min-width: 280px;
     padding: 1.5rem;
     border-radius: 8px;
-    background-color: #dde2eb;
-}
-
-.card:hover{
-	background-size: 400% 400%;
+    background-color: var(--color-theme-2);
 }
 
 .card-section1{
     overflow: hidden;
-    
     min-width: max-content;
     height: 5px; 
     border-radius: 8px;

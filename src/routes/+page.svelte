@@ -26,15 +26,13 @@
  <section class="section-contents section-2" >
 	<h2 class="big-header">i heckin' love programming</h2>
 	<p class="paragraph-contents">i really hecking love programming and designing and i want work and money hehe</p>
-
-	
 	
 	<card class="card-list">
 
 		<article class="card" id="csharp-card">
 		  <header class="card-header">
 			<p>Game Development</p>
-			<h2>"cool"</h2>
+			<h2>cool</h2>
 		  </header>
   
 		  <div class="card-author">
@@ -53,7 +51,7 @@
 		<article class="card" id="js-card">
 		  <header class="card-header">
 			<p>Web Development</p>
-			<h2>"wala akong masabi"</h2>
+			<h2>wala akong masabi</h2>
 		  </header>
   
 		  <div class="card-author">
@@ -74,7 +72,7 @@
 		<article class="card" id="html-card">
 		  <header class="card-header">
 			<p>Web Development</p>
-			<h2>"niced"</h2>
+			<h2>niced</h2>
 		  </header>
   
 		  <div class="card-author">
@@ -93,7 +91,7 @@
 		<article class="card">
 		  <header class="card-header">
 			<p>Web Development</p>
-			<h2>"pain and suffering"</h2>
+			<h2>pain and suffering</h2>
 		  </header>
 		  
 		  <div class="card-author">
@@ -112,7 +110,7 @@
 		<article class="card">
 		  <header class="card-header">
 			<p>Web Development</p>
-			<h2>"svelte is fun"</h2>
+			<h2>svelte is fun</h2>
 		  </header>
 		  
 		  <div class="card-author">
