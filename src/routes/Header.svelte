@@ -13,7 +13,6 @@
 	</Button>
 
 	<nav>
-		
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
