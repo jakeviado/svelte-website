@@ -1,10 +1,9 @@
 <script>
-	
 </script>
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Website Portfolio" />
 </svelte:head>
 
 <section class="section-contents">
@@ -199,9 +198,22 @@
 </section>
 
 <style>
+
+    :global(body) {
+		background-color: var(--color-bg-1);
+    	color: var(--color-text);
+		background-size: 100vw 100vh;
+		background-image: radial-gradient(
+		50% 50% at 50% 50%,
+		rgba(27, 104, 197, 0.121) 0%,
+		rgba(68, 16, 239, 0.07) 100%
+	),
+		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+	}
+
 	section{
-    margin-block: 10vh;
-    padding-block: 10vh;
-    display: block;
+    	margin-block: 10vh;
+    	padding-block: 10vh;
+    	display: block;
 	}
 </style>

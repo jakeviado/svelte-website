@@ -44,6 +44,10 @@
 		color: var(--color-text-2);
 	}
 
+	:global(body.dark-mode) a{
+        color: var(--color-text-2);
+    } 
+
 	nav {
 		display: flex;
 		justify-content: center;
@@ -91,12 +95,13 @@
 		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
-		color: var(--color-text-2)
+		color: var(--color-text)
 	}
 
 	a:hover {
 		color: var(--color-theme-1);
 	}
+
 	p{
 		font-size: 1rem;
 	}

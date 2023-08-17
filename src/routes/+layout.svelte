@@ -22,6 +22,10 @@
 		min-height: 100vh;
 	}
 
+	:global(body.dark-mode) a{
+        color: var(--color-theme-2);
+    } 
+
 	footer {
 		display: flex;
 		flex-direction: column;
@@ -31,7 +35,9 @@
 	}
 
 	footer a {
-		font-weight: bold;
+		font-weight: 100;
+		font-size: 1.2rem;
+		text-decoration: none;
 	}
 
 	@media (min-width: 480px) {

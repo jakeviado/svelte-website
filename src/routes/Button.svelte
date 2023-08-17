@@ -13,12 +13,12 @@
             font-family: 'Jost';
             padding: 0 1.5rem;
             background-color: #00000000;
-            color: var(--color-text-2);
             border: none;
             padding: 10px;
             cursor: pointer;
         }
         :global(body.dark-mode) button {
             background-color: #00000000;
+            color: var(--color-text-2);
         }
 </style>
