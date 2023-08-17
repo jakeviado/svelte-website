@@ -1,4 +1,5 @@
 <script>
+	import './styles.css';
 	import { page } from '$app/stores';
 	import github from '$lib/images/github.svg';
 
@@ -60,6 +61,7 @@
 		list-style: none;
 		background: var(--background);
 		background-size: contain;
+		font-family: 'Unbounded';
 	}
 
 	li {
@@ -68,7 +70,7 @@
 	}
 
 	li[aria-current='page']::before {
-		--size: 8px;
+		--size: 10px;
 		content: '';
 		width: 0;
 		height: 0;
@@ -84,8 +86,8 @@
 		height: 100%;
 		align-items: center;
 		padding: 0 1.5rem;
-		font-weight: 700;
-		font-size: .6rem;
+		font-weight: 100;
+		font-size: .2rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;

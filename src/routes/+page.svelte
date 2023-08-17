@@ -206,7 +206,4 @@
     padding-block: 10vh;
     display: block;
 	}
-
-	
-
 </style>

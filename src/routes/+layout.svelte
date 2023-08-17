@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>More: <a href="https://kit.svelte.dev">kit.svelte.dev</a></p>
+		<p>More on: <a href="https://github.com/jakeviado">GitHub</a></p>
 	</footer>
 </div>
 
@@ -22,12 +22,10 @@
 		min-height: 100vh;
 	}
 
-	
-
 	footer {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
 		padding: 12px;
 	}
