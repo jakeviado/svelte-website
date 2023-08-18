@@ -9,5 +9,5 @@ export const messages = [
 export const infos = [
     "Coffee...",
 	"Break",
-	"Recess",
+	"test...",
 ];

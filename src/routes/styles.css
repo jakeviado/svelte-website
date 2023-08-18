@@ -32,7 +32,6 @@ main {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	padding: 1rem;
 	width: 100%;
 	max-width: 64rem;
 	margin: 0 auto;
@@ -59,7 +58,7 @@ p{
     overflow: visible;
 	display: flex;
 	flex-direction: column;
-	padding: 1.3rem;
+	padding: 1.5rem;
 	width: 100%;
 	max-width: 64rem;
 	margin: 0 auto;
@@ -90,7 +89,15 @@ p{
 /*CARDS*/
 .card-list {
     display: flex;
-    padding: 10px 1vw;
+    margin-block: 2rem;
+    margin: 3vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    cursor: default;
+}
+
+.featured-card-list {
+    display: flex;
     margin-block: 2rem;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -108,7 +115,7 @@ p{
 }
 
 .card {
-    height: 260px;
+    height: 230px;
     min-width: 280px;
     padding: 1.5rem;
     border-radius: 8px;
@@ -210,10 +217,9 @@ p{
     min-width: 200px;
     width: 100%;
     padding: 1.5rem;
-    border-radius: 8px; 
+    border-radius: 0px; 
     background-color: var(--color-bg-1);
     overflow: hidden;
-
 }
 
 .logos{
