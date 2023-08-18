@@ -5,7 +5,6 @@
 	import { typewriter } from './transition.js';
 	import { messages } from './loading-messages.js';
 	import {infos} from './loading-messages.js';
-	export const prerender = true;
 	let i = -1;
 
 	onMount(() => {
