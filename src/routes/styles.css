@@ -7,7 +7,7 @@
 :root {
 	--font-body: 'Jost';
 	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: rgba(112, 111, 111, 0.275);
+	--color-bg-0: rgb(255, 255, 255);
 	--color-bg-1: hsl(0, 0%, 100%);
 	--color-bg-2: hsl(0, 0%, 100%);
 	--color-theme-1: #d5623e;
@@ -58,7 +58,7 @@ p{
     overflow: visible;
 	display: flex;
 	flex-direction: column;
-	padding: 1.5rem;
+	padding: 1.8rem;
 	width: 100%;
 	max-width: 64rem;
 	margin: 0 auto;
@@ -76,50 +76,12 @@ p{
     border-radius: 4px;
 }
 
-/*
-.image{
-    border-radius: 8px;
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
-}
-*/
-
-/*CARDS*/
-.card-list {
-    display: flex;
-    margin-block: 2rem;
-    margin: 3vh;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    cursor: default;
-}
-
 .featured-card-list {
     display: flex;
     margin-block: 2rem;
     overflow-x: scroll;
     overflow-y: hidden;
     cursor: default;
-}
-
-.card-list::-webkit-scrollbar {
-    width: 5px;
-    height: 0px;
-}
-
-.card-list::-webkit-scrollbar-thumb {
-    background: (--color-text);
-    border-radius: 1px;
-}
-
-.card {
-    height: 230px;
-    min-width: 280px;
-    padding: 1.5rem;
-    border-radius: 8px;
-    background-color: var(--color-bg-1);
 }
 
 .card-section1{
@@ -144,12 +106,14 @@ p{
 	}
 }
 
-.card:not(:first-child) {
-    margin-left: 13px;
-}
-
-.card-header {
-    margin-bottom: auto;
+.featured-card {
+	min-height: max-content;
+    min-width: 200px;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0px; 
+    background-color: var(--color-bg-1);
+    overflow: hidden;
 }
 
 .card-header p {
@@ -170,56 +134,6 @@ p{
     border: 0;
     display: inline-block;
     cursor: pointer;
-}
-
-.card-author {
-    margin: 4rem 0 0;
-    display: grid;
-    grid-template-columns: 50px 1fr;
-    align-items: center;
-    position: relative;
-    font-family: 'Aoboshi One', serif;
-    align-self: flex-end;
-}
-
-.avatar {
-    grid-area: auto;
-    align-self: start;
-    position: relative;
-    box-sizing: border-box;
-}
-.additional-avatar {
-    grid-area: auto;
-    align-self: center;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.avatar img {
-    width: 50px;
-    height: 50px;
-    display: block;
-    overflow: hidden;
-    margin: 16px 0;
-}
-
-.author-name {
-    font-style: normal;
-    font-weight: 100;
-    color: #0e1011;
-    margin: .5rem;
-    grid-area: auto;
-    box-sizing: border-box;
-}
-
-.featured-card {
-	min-height: max-content;
-    min-width: 200px;
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 0px; 
-    background-color: var(--color-bg-1);
-    overflow: hidden;
 }
 
 .logos{

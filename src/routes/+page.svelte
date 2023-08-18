@@ -1,5 +1,6 @@
 <script>
 	import Frames from './Frames.svelte';
+	import Cards from './Cards.svelte'
 	import { onMount } from 'svelte';
 	import { typewriter } from './transition.js';
 	import { messages } from './loading-messages.js';
@@ -28,134 +29,30 @@
 
 <section  class="section-contents">
 	<h2 class="big-header">Welcome</h2>
-
 	<p  class="paragraph-contents">for future purposes siguro or mema na lang 
 	</p>
 
+	
 	<article class="card-section1">
 	  <header class="card-header">
 		<div class="svg-element-header"></div>
 	  </header>
 	</article>
-
-	<span>
 		{#key i}
-		<p in:typewriter={{ speed: 10 }}>
-			{messages[i] || ''}
-		</p>
+		    <p in:typewriter={{ speed: 10 }}>
+				{messages[i] || ''}
+		    </p>
 		{/key}
-	</span>
-
-	
-	
 </section>
 
 <Frames />
 
- <section class="section-contents section-2" >
-	<h2 class="big-header">i heckin' love programming</h2>
-	<p class="paragraph-contents">i really hecking love programming and designing and i want work and money hehe</p>
+ 	<section class="section-contents section-2" >
+		<h2 class="big-header">i heckin' love programming</h2>
+		<p class="paragraph-contents">i really hecking love programming and designing and i want work and money hehe</p>
 
-	
-
-  </section>
+  	</section>
   
-  <card class="card-list">
-
-	<article class="card" id="csharp-card">
-	  <header class="card-header">
-		
-		<p >Game Development</p>
-		<h2 >cool</h2>
-		
-	  </header>
-
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="src/lib/images/csharp.svg" alt="svelte-icon">
-		</div>
-
-		<div class="author-name">
-		  <div class="author-name-prefix">C#</div>
-		</div>
-	  </div>
-	</article>
-	
-
-	
-	<article class="card" id="js-card">
-	  <header class="card-header">
-		
-		<p>Web Development</p>
-		<h2 >wala akong masabi</h2>
-
-	  </header>
-
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="src/lib/images/javascript-icon.svg" alt="svelte-icon">
-		</div>
-
-		<div class="author-name">
-		  <div  class="author-name-prefix">JavaScript</div>
-		</div>
-	  </div>
-	</article>
-	
-	
-
-	<article class="card" id="html-card">
-	  <header class="card-header">
-		<p>Web Development</p>
-		<h2>niced</h2>
-	  </header>
-
-		  <div class="card-author">
-			<div class="avatar">
-				<img src="src/lib/images/html-icon.svg" alt="svelte-icon">
-			</div>
-
-			<div class="author-name">
-			  <div class="author-name-prefix">HTML</div>
-			</div>
-		  </div>
-	</article>
-
-	<article class="card">
-	  <header class="card-header">
-		<p>Web Development</p>
-		<h2>pain and suffering</h2>
-	  </header>
-	  
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="src/lib/images/css-icon.svg" alt="svelte-icon">
-		</div>
-
-		<div class="author-name">
-		  <div class="author-name-prefix">CSS</div>
-		</div>
-	  
-	</article>
-
-	<article class="card">
-	  <header class="card-header">
-		<p>Web Development</p>
-		<h2>svelte is fun</h2>
-	  </header>
-	  
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="src/lib/images/svelte-icon.svg" alt="svelte-icon">
-		</div>
-
-		<div class="author-name">
-		  <div class="author-name-prefix">Svelte Kit</div>
-		</div>
-
-	</article>
-
-</card>
 
 <card class="featured-card-list">
 <article class="featured-card" id="bigcard">
@@ -216,6 +113,8 @@
 	<h2 class="big-header">Header 3</h2>
 	<p class="paragraph-contents">Debitis doloribus quas omnis quis blanditiis a magni facere laudantium obcaecati praesentium vitae repellat libero incidunt ad voluptates odio hic dolore ea, voluptatum nam! Facilis laborum placeat eligendi facere alias?</p>
 
+
+	<Cards />
 	<span>{#key i}
 		<p in:typewriter={{ speed: 10 }}>
 		{infos[i] || ''}
@@ -223,6 +122,8 @@
 		{/key}
 	</span>
 </section>
+
+
 
 
 <section class="section-contents">

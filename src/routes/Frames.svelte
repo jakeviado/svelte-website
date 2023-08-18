@@ -1,5 +1,5 @@
 <script>
-
+    
 </script>
 
 <main>
@@ -8,9 +8,8 @@
         <article class="frame-card" background>
             <header class="frame-header">
               
-            
-              <h2 >OMEGALUL</h2>
-              <p>hello</p>
+              <h2>omegalulz</h2>
+              <p>henlo</p>
               
             </header>
           </article>
@@ -27,6 +26,7 @@
     }
 
     card {
+    position: relative;
     align-items: end;
     height: 260px;
     min-width: 280px;
@@ -41,24 +41,27 @@
     }
 
     .frame-header p {
+    position: absolute;
     background-color: rgb(0, 0, 0);
     height: max-content;
     width: max-content;
     padding: 5px;
     font-weight: 500;
-    font-size: 15px;
-    margin: 0;
+    font-size: 10px;
+    margin: 1px;
     color: var(--color-bg-1);
     font-family: 'Unbounded';
     }
 
     .frame-header h2 {
     font-size: 24px;
+    font-weight: bold;
     font-family: 'Unbounded';
     background-color: rgb(0, 0, 0);
     height: max-content;
     width: max-content;
     font-weight: 100;
+    margin: 1px;
     text-decoration: none;
     color: var(--color-text-2);
     border: 0;
