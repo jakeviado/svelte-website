@@ -65,7 +65,7 @@
 
 	  <div class="logos">
 		  <div class="logos-slide">
-				  <img src="src/lib/images/nextjs-icon.svg" alt="Svelte logo" />
+				  <img src="src/lib/images/github.svg" alt="Svelte logo" />
   
 				 <img  src="src/lib/images/tailwind.svg" alt="Svelte logo" />
   
@@ -78,7 +78,7 @@
 				<img  src="src/lib/images/firebase-icon.svg" alt="Svelte logo" />
 		   </div>
 		 <div class="logos-slide">
-				<img src="src/lib/images/nextjs-icon.svg" alt="Svelte logo" />
+				<img src="src/lib/images/github.svg" alt="Svelte logo" />
   
 				<img  src="src/lib/images/tailwind.svg" alt="Svelte logo" />
 
@@ -92,7 +92,7 @@
 			
 		 </div>
 		   <div class="logos-slide">
-				<img src="src/lib/images/nextjs-icon.svg" alt="Svelte logo" />
+				<img src="src/lib/images/github.svg" alt="Svelte logo" />
   
 				<img  src="src/lib/images/tailwind.svg" alt="Svelte logo" />
 
