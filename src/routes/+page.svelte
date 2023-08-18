@@ -1,4 +1,5 @@
 <script>
+	import Frames from './Frames.svelte';
 	import { onMount } from 'svelte';
 	import { typewriter } from './transition.js';
 	import { messages } from './loading-messages.js';
@@ -45,8 +46,8 @@
 		{/key}
 	</span>
 
+	
 </section>
-
 
  <section class="section-contents section-2" >
 	<h2 class="big-header">i heckin' love programming</h2>
@@ -226,6 +227,7 @@
 	<h2 class="big-header">Header 4</h2>
 
 	<p class="paragraph-contents">Debitis doloribus quas omnis quis blanditiis a magni facere laudantium obcaecati praesentium vitae repellat libero incidunt ad voluptates odio hic dolore ea, voluptatum nam! Facilis laborum placeat eligendi facere alias?</p>
+	<Frames />
 </section>
 
 <style>
