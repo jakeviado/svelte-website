@@ -29,23 +29,25 @@
 
 <section  class="section-contents">
 	<h2 class="big-header">Welcome</h2>
-	<p  class="paragraph-contents">for future purposes siguro or mema na lang 
+	<p  class="paragraph-contents">for future purposes siguro or mema na lang  
 	</p>
-
 	
 	<article class="card-section1">
 	  <header class="card-header">
 		<div class="svg-element-header"></div>
 	  </header>
 	</article>
+	
+	<span>
 		{#key i}
 		    <p in:typewriter={{ speed: 10 }}>
 				{messages[i] || ''}
 		    </p>
 		{/key}
+	</span>
+
 </section>
 
-<Frames />
 
  	<section class="section-contents section-2" >
 		<h2 class="big-header">i heckin' love programming</h2>
@@ -123,15 +125,14 @@
 	</span>
 </section>
 
-
-
-
 <section class="section-contents">
 	<h2 class="big-header">Header 4</h2>
 
 	<p class="paragraph-contents">Debitis doloribus quas omnis quis blanditiis a magni facere laudantium obcaecati praesentium vitae repellat libero incidunt ad voluptates odio hic dolore ea, voluptatum nam! Facilis laborum placeat eligendi facere alias?</p>
 	
 </section>
+
+<Frames />
 
 <style>
 
@@ -148,6 +149,7 @@
 	}
 
 	section{
+		justify-content: space-between;
     	margin-block: 10vh;
     	padding-block: 10vh;
     	display: block;
