@@ -14,7 +14,7 @@
 
 	  <div class="card-author">
 		<div class="avatar">
-			<img src="src/lib/images/csharp.svg" alt="svelte-icon">
+			<img src="../csharp.svg" alt="svelte-icon">
 		</div>
 
 		<div class="author-name">
@@ -35,7 +35,7 @@
 
 	  <div class="card-author">
 		<div class="avatar">
-			<img src="src/lib/images/javascript-icon.svg" alt="svelte-icon">
+			<img src="../javascript-icon.svg" alt="svelte-icon">
 		</div>
 
 		<div class="author-name">
@@ -54,7 +54,7 @@
 
 		  <div class="card-author">
 			<div class="avatar">
-				<img src="src/lib/images/html-icon.svg" alt="svelte-icon">
+				<img src="../html-icon.svg" alt="svelte-icon">
 			</div>
 
 			<div class="author-name">
@@ -71,7 +71,7 @@
 	  
 	  <div class="card-author">
 		<div class="avatar">
-			<img src="src/lib/images/css-icon.svg" alt="svelte-icon">
+			<img src="../css-icon.svg" alt="svelte-icon">
 		</div>
 
 		<div class="author-name">
@@ -88,7 +88,7 @@
 	  
 	  <div class="card-author">
 		<div class="avatar">
-			<img src="src/lib/images/svelte-icon.svg" alt="svelte-icon">
+			<img src="../svelte-icon.svg" alt="svelte-icon">
 		</div>
 
 		<div class="author-name">

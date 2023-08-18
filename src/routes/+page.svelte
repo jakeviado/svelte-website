@@ -5,6 +5,7 @@
 	import { typewriter } from './transition.js';
 	import { messages } from './loading-messages.js';
 	import {infos} from './loading-messages.js';
+
 	let i = -1;
 
 	onMount(() => {
@@ -64,41 +65,50 @@
 
 	  <div class="logos">
 		  <div class="logos-slide">
-  
-				 <img  src="src/lib/images/tailwind.svg" alt="Svelte logo" />
-  
-				  <img  src="src/lib/images/reactjs-icon.svg" alt="Svelte logo" />
-		  
-				  <img  src="src/lib/images/nodejs-icon.svg" alt="Svelte logo" />
-  
-				 <img  src="src/lib/images/svelte-mono.svg" alt="Svelte logo" />
+				<img src="../github.svg" alt="Svelte logo" />
 
-				<img  src="src/lib/images/firebase-icon.svg" alt="Svelte logo" />
+				<img src="../nextjs-icon.svg" alt="Svelte logo" />
+  
+				<img  src="../tailwind.svg" alt="Svelte logo" />
+  
+				<img  src="../reactjs-icon.svg" alt="Svelte logo" />
+		  
+				<img  src="../nodejs-icon.svg" alt="Svelte logo" />
+  
+				<img  src="../svelte-mono.svg" alt="Svelte logo" />
+
+				<img  src="../firebase-icon.svg" alt="Svelte logo" />
 		   </div>
 		 <div class="logos-slide">
-  
-				<img  src="src/lib/images/tailwind.svg" alt="Svelte logo" />
+				<img src="../github.svg" alt="Svelte logo" />
 
-				<img  src="src/lib/images/reactjs-icon.svg" alt="Svelte logo" />
-		
-				<img  src="src/lib/images/nodejs-icon.svg" alt="Svelte logo" />
+				<img src="../nextjs-icon.svg" alt="Svelte logo" />
 
-				<img  src="src/lib/images/svelte-mono.svg" alt="Svelte logo" />
+				<img  src="../tailwind.svg" alt="Svelte logo" />
 
-				<img  src="src/lib/images/firebase-icon.svg" alt="Svelte logo" />
+				<img  src="../reactjs-icon.svg" alt="Svelte logo" />
+	  
+				<img  src="../nodejs-icon.svg" alt="Svelte logo" />
+
+				<img  src="../svelte-mono.svg" alt="Svelte logo" />
+
+				<img  src="../firebase-icon.svg" alt="Svelte logo" />
 			
 		 </div>
 		   <div class="logos-slide">
-  
-				<img  src="src/lib/images/tailwind.svg" alt="Svelte logo" />
+				<img src="../github.svg" alt="Svelte logo" />
 
-				<img  src="src/lib/images/reactjs-icon.svg" alt="Svelte logo" />
-		
-				<img  src="src/lib/images/nodejs-icon.svg" alt="Svelte logo" />
+				<img src="../nextjs-icon.svg" alt="Svelte logo" />
 
-				<img  src="src/lib/images/svelte-mono.svg" alt="Svelte logo" />
+				<img  src="../tailwind.svg" alt="Svelte logo" />
 
-				<img  src="src/lib/images/firebase-icon.svg" alt="Svelte logo" />
+				<img  src="../reactjs-icon.svg" alt="Svelte logo" />
+	  
+				<img  src="../nodejs-icon.svg" alt="Svelte logo" />
+
+				<img  src="../svelte-mono.svg" alt="Svelte logo" />
+
+				<img  src="../firebase-icon.svg" alt="Svelte logo" />
 		
 			</div>
 		 </div>

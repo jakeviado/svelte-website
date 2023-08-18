@@ -34,7 +34,7 @@
     border-radius: 0px;
     background-color: var(--color-bg-1);
     background-position: center;
-    background-image: url('src/lib/images/pusa-image.jpg');
+    background-image: url('../pusa-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: inset;
