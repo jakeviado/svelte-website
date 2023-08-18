@@ -28,14 +28,9 @@
 <section  class="section-contents">
 	<h2 class="big-header">Welcome</h2>
 
-	
 	<p  class="paragraph-contents">for future purposes siguro or mema na lang 
 	</p>
 
-	
-	
-	
-	  
 	<article class="card-section1">
 	  <header class="card-header">
 		<div class="svg-element-header"></div>
@@ -213,9 +208,6 @@
 
   </section>
   
-
-
-
 
 <section class="section-contents">
 	<h2 class="big-header">Header 3</h2>
