@@ -1,7 +1,6 @@
 <script>
 	import './styles.css';
 	import { page } from '$app/stores';
-
 	import Button from './Button.svelte'
 	let name = 'world';
 

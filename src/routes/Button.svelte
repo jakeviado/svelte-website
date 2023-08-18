@@ -1,5 +1,6 @@
 <script>
     import './styles.css';
+    
     function toggle() {
         window.document.body.classList.toggle('dark-mode')
     }
