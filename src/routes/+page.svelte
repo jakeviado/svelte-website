@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { typewriter } from './transition.js';
 	import { messages } from './loading-messages.js';
+	import {infos} from './loading-messages.js';
 
 	let i = -1;
 
@@ -28,7 +29,10 @@
 	<h2 class="big-header">Welcome</h2>
 
 	
-	<p  class="paragraph-contents">for future purposes siguro or mema na lang</p>
+	<p  class="paragraph-contents">for future purposes siguro or mema na lang 
+	</p>
+
+	
 	
 	
 	  
@@ -39,13 +43,13 @@
 	</article>
 
 	<span>
-	{#key i}
-	<p in:typewriter={{ speed: 10 }}>
-		{messages[i] || ''}
-	</p>
-	{/key}
-    </span>
-	
+		{#key i}
+		<p in:typewriter={{ speed: 10 }}>
+			{messages[i] || ''}
+		</p>
+		{/key}
+	</span>
+
 </section>
 
 
@@ -153,10 +157,11 @@
   <card class="card-list">
 	<article class="featured-card" id="bigcard">
 		  <header class="card-header">
-			<p>future</p>
-			<h2>currently exploring some frameworks, tools and learning web hosting para muka na akong cool na nerd</h2>
+			<p>future </p> 
+			<h2>currently exploring some frameworks, tools and learning web hosting para muka na akong cool na nerd  </h2>
 		  </header>
   
+
 		  <div class="logos">
 			  <div class="logos-slide">
 				  	<img src="src/lib/images/nextjs-icon.svg" alt="Svelte logo" />
@@ -200,6 +205,9 @@
 			
 				</div>
 			 </div>
+
+			
+
 		</article>
 	</card>
 
@@ -211,9 +219,14 @@
 
 <section class="section-contents">
 	<h2 class="big-header">Header 3</h2>
-
 	<p class="paragraph-contents">Debitis doloribus quas omnis quis blanditiis a magni facere laudantium obcaecati praesentium vitae repellat libero incidunt ad voluptates odio hic dolore ea, voluptatum nam! Facilis laborum placeat eligendi facere alias?</p>
 
+	<span>{#key i}
+		<p in:typewriter={{ speed: 10 }}>
+		{infos[i] || ''}
+		</p>
+		{/key}
+	</span>
 </section>
 
 
@@ -241,5 +254,9 @@
     	margin-block: 10vh;
     	padding-block: 10vh;
     	display: block;
+	}
+	span{
+		position: absolute;
+		
 	}
 </style>
