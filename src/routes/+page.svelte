@@ -28,8 +28,6 @@
 
 
 <section  class="section-contents">
-
-
 	<h2 class="big-header">Welcome</h2>
 	<p  class="paragraph-contents">for future purposes siguro or mema na lang  
 	</p>
