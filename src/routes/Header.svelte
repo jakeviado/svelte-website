@@ -2,7 +2,6 @@
 	import './styles.css';
 	import { page } from '$app/stores';
 	import Button from './Button.svelte'
-	let name = 'world';
 
 </script>
 
@@ -13,7 +12,7 @@
 
 	<nav>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+			<li  aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/">Home</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
@@ -21,9 +20,6 @@
 			</li>
 		</ul>
 	</nav>
-
-	
-
 </header>
 
 <style>
@@ -31,6 +27,7 @@
 		display: flex;
 		margin-inline: 1vh;
 		justify-content: space-between;
+		height: 4rem;
 	}
 
 	:global(body.dark-mode) {
@@ -47,6 +44,7 @@
         color: var(--color-text-2);
     } 
 
+
 	nav {
 		display: flex;
 		justify-content: center;
@@ -56,7 +54,6 @@
 		position: relative;
 		padding: 0;
 		margin: 0;
-		height: 4em;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -74,13 +71,11 @@
 	li[aria-current='page']::before {
 		--size: 10px;
 		content: '';
-		width: 0;
+		width: 100%;
 		height: 0;
 		position: absolute;
 		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
+		border-top: solid var(--color-theme-1);
 	}
 
 	nav a {
@@ -100,7 +95,7 @@
 	a:hover {
 		color: var(--color-theme-1);
 	}
-
+	
 	p{
 		font-size: 1rem;
 	}
