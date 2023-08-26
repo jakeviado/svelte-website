@@ -121,14 +121,9 @@
 	<h2 class="big-header">Header 3</h2>
 	<p class="paragraph-contents">Debitis doloribus quas omnis quis blanditiis a magni facere laudantium obcaecati praesentium vitae repellat libero incidunt ad voluptates odio hic dolore ea, voluptatum nam! Facilis laborum placeat eligendi facere alias?</p>
 
-
 	<Cards />
-	<span>{#key i}
-		<p in:typewriter={{ speed: 10 }}>
-		{infos[i] || ''}
-		</p>
-		{/key}
-	</span>
+	<Frames />
+	
 </section>
 
 <section class="section-contents">
@@ -138,7 +133,6 @@
 	
 </section>
 
-<Frames />
 
 <style>
 
