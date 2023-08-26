@@ -4,7 +4,6 @@
 	import { onMount } from 'svelte';
 	import { typewriter } from './transition.js';
 	import { messages } from './loading-messages.js';
-	import {infos} from './loading-messages.js';
 
 	let i = -1;
 
@@ -52,7 +51,7 @@
  	<section class="section-contents section-2" >
 		<h2 class="big-header">i heckin' love programming</h2>
 		<p class="paragraph-contents">i really hecking love programming and designing and i want work and money hehe</p>
-
+		
   	</section>
   
 
@@ -123,7 +122,6 @@
 
 	<Cards />
 	<Frames />
-	
 </section>
 
 <section class="section-contents">

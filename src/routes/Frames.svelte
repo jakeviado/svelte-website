@@ -8,8 +8,8 @@
         <article class="frame-card" background>
             <header class="frame-header">
               
-              <h2>omegalulz</h2>
-              <p>henlo</p>
+              <h2>hell yeah</h2>
+              <p>lul</p>
               
             </header>
           </article>
