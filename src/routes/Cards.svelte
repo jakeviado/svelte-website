@@ -124,7 +124,7 @@
     min-width: 280px;
     padding: 1.5rem;
     border-radius: 8px;
-    background-color: var(--color-bg-1);
+    background-color: var(--color-theme-2);
     }
 
     .card:not(:first-child) {
