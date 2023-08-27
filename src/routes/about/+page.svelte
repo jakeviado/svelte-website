@@ -4,7 +4,7 @@
 </svelte:head>
 
 <section class="section-contents">
-	<h2>About this</h2>
+	<h2>What the heck is this?</h2>
 
 	<p>
 		This website is made with <a href="https://kit.svelte.dev">Svelte Kit</a> 

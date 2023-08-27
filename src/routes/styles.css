@@ -89,7 +89,7 @@ p{
     min-width: max-content;
     height: 5px; 
     border-radius: 8px;
-    background: radial-gradient( #e67e15, #ff6d1e, #ff0149, #ef44b8, #6f0bd8, #cc9ced, #03cbbb);
+    background: radial-gradient( #e67e15, #d1aaa5, #d9779f, #ef44b8, #87b7da, #a887dd, #03cbbb);
     background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
@@ -151,6 +151,7 @@ p{
 	height: 60px;
     width: 60px;
 	margin: 0 40px;
+	filter: sepia(1);
 }
 
 @keyframes infiniteScroll {

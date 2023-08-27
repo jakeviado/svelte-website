@@ -4,11 +4,28 @@
 
 <card class="card-list">
 
+	<article class="card">
+		<header class="card-header">
+		  <p>Web Development</p>
+		  <h2>Svelte</h2>
+		</header>
+		
+		<div class="card-author">
+		  <div class="avatar">
+			  <img src="../svelte-icon.svg" alt="svelte-icon">
+		  </div>
+  
+		  <div class="author-name">
+			<div class="author-name-prefix"></div>
+		  </div>
+  
+	  </article>
+
 	<article class="card" id="csharp-card">
 	  <header class="card-header">
 		
 		<p >Game Development</p>
-		<h2 >cool</h2>
+		<h2>C#</h2>
 		
 	  </header>
 
@@ -18,7 +35,7 @@
 		</div>
 
 		<div class="author-name">
-		  <div class="author-name-prefix">C#</div>
+		  <div class="author-name-prefix"></div>
 		</div>
 	  </div>
 	</article>
@@ -29,7 +46,7 @@
 	  <header class="card-header">
 		
 		<p>Web Development</p>
-		<h2 >wala akong masabi</h2>
+		<h2 >JavaScript</h2>
 
 	  </header>
 
@@ -39,7 +56,7 @@
 		</div>
 
 		<div class="author-name">
-		  <div  class="author-name-prefix">JavaScript</div>
+		  <div  class="author-name-prefix"></div>
 		</div>
 	  </div>
 	</article>
@@ -49,7 +66,7 @@
 	<article class="card" id="html-card">
 	  <header class="card-header">
 		<p>Web Development</p>
-		<h2>niced</h2>
+		<h2>HTML</h2>
 	  </header>
 
 		  <div class="card-author">
@@ -58,7 +75,7 @@
 			</div>
 
 			<div class="author-name">
-			  <div class="author-name-prefix">HTML</div>
+			  <div class="author-name-prefix"></div>
 			</div>
 		  </div>
 	</article>
@@ -66,7 +83,7 @@
 	<article class="card">
 	  <header class="card-header">
 		<p>Web Development</p>
-		<h2>pain and suffering</h2>
+		<h2>CSS</h2>
 	  </header>
 	  
 	  <div class="card-author">
@@ -75,27 +92,11 @@
 		</div>
 
 		<div class="author-name">
-		  <div class="author-name-prefix">CSS</div>
+		  <div class="author-name-prefix"></div>
 		</div>
 	  
 	</article>
 
-	<article class="card">
-	  <header class="card-header">
-		<p>Web Development</p>
-		<h2>svelte is fun</h2>
-	  </header>
-	  
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="../svelte-icon.svg" alt="svelte-icon">
-		</div>
-
-		<div class="author-name">
-		  <div class="author-name-prefix">Svelte Kit</div>
-		</div>
-
-	</article>
 
 </card>
 
@@ -103,7 +104,9 @@
     /*CARDS*/
 .card-list {
     display: flex;
-    margin-block: 2rem;
+    margin-block: 0rem;
+	padding-block: 1rem;
+	padding-inline-end: 1rem;
     overflow-x: scroll;
     overflow-y: hidden;
     cursor: default;
@@ -120,10 +123,11 @@
     }
 
     .card {
-    height: 230px;
-    min-width: 280px;
+    height: 240px;
+    min-width: 250px;
     padding: 1.5rem;
     border-radius: 8px;
+	overflow: hidden;
     background-color: var(--color-theme-2);
     }
 
@@ -143,7 +147,7 @@
     font-family: 'Unbounded';
     }
 
-.card-header h2 {
+	.card-header h2 {
     font-size: 20px;
     font-family: 'Aoboshi One', serif;
     font-weight: 100;
@@ -153,39 +157,46 @@
     border: 0;
     display: inline-block;
     cursor: pointer;
-}
+	}
 
-.card-author {
-    margin: 4rem 0 0;
+	.card-author {
+    margin: 0 0 0;
     display: grid;
     grid-template-columns: 50px 1fr;
     align-items: center;
     position: relative;
     font-family: 'Aoboshi One', serif;
     align-self: flex-end;
-}
+	}
 
-.avatar {
+	.avatar {
     grid-area: auto;
     align-self: start;
     position: relative;
     box-sizing: border-box;
-}
+	}
 
-.avatar img {
-    width: 50px;
-    height: 50px;
-    display: block;
+	.avatar img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+	margin: 0 0 0 6.6rem;
+	position: absolute;
     overflow: hidden;
-    margin: 16px 0;
-}
+	filter: invert();
+	}
 
-.author-name {
+    .card img:hover{
+	transition: all 200ms ease-out;
+	filter: invert(0);
+	}
+
+	.author-name {
     font-style: normal;
     font-weight: 100;
     color: #0e1011;
     margin: .5rem;
     grid-area: auto;
     box-sizing: border-box;
-}
+	}
 </style>
