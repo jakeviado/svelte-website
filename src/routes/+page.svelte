@@ -121,9 +121,10 @@
 	<p class="paragraph-contents">Debitis doloribus quas omnis quis blanditiis a magni facere laudantium obcaecati praesentium vitae repellat libero incidunt ad voluptates odio hic dolore ea, voluptatum nam! Facilis laborum placeat eligendi facere alias?</p>
 
 	<Cards />
-	<Frames />
 </section>
 
+	<Frames />
+	
 <section class="section-contents">
 	<h2 class="big-header">Header 4</h2>
 

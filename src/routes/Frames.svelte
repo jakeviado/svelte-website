@@ -15,18 +15,19 @@
           </article>
     </card>
 
+
 </main>
 
 <style>
     .frame-list {
     display: flex;
+    position: static;
     overflow-x: scroll;
     overflow-y: hidden;
     cursor: default;
     }
 
     card {
-    position: relative;
     align-items: end;
     height: 260px;
     min-width: 280px;
