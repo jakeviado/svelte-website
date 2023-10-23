@@ -55,10 +55,7 @@
   <article class="featured-card" id="bigcard">
     <header class="card-header">
       <p>future</p>
-      <h2>
-        currently exploring some frameworks, tools and learning web hosting para
-        muka na akong cool na nerd
-      </h2>
+      <h2>currently exploring the world of Info Tech</h2>
     </header>
 
     <div class="logos">
@@ -112,10 +109,8 @@
 </card>
 
 <section class="section-contents">
-  <h2 class="big-header">EXP</h2>
-  <p class="paragraph-contents">
-    working in this website, trying to apply art in web development maybe
-  </p>
+  <h2 class="big-header">niced!</h2>
+  <p class="paragraph-contents">bingo bango bongo, bish bash bosh</p>
 
   <Cards />
 </section>
@@ -125,7 +120,7 @@
 <section class="section-contents">
   <h2 class="big-header">END</h2>
 
-  <p class="paragraph-contents">yes</p>
+  <p class="paragraph-contents">wala lang talaga akong mailagay</p>
 </section>
 
 <style>
