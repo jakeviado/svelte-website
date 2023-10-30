@@ -1,202 +1,184 @@
 <script>
-	
 </script>
 
 <card class="card-list">
+  <article class="card">
+    <header class="card-header">
+      <p>Web Development</p>
+      <h2>Svelte</h2>
+    </header>
 
-	<article class="card">
-		<header class="card-header">
-		  <p>Web Development</p>
-		  <h2>Svelte</h2>
-		</header>
-		
-		<div class="card-author">
-		  <div class="avatar">
-			  <img src="../svelte-icon.svg" alt="svelte-icon">
-		  </div>
-  
-		  <div class="author-name">
-			<div class="author-name-prefix"></div>
-		  </div>
-  
-	  </article>
+    <div class="card-author">
+      <div class="avatar">
+        <img src="../svelte-icon.svg" alt="svelte-icon" />
+      </div>
 
-	<article class="card" id="csharp-card">
-	  <header class="card-header">
-		
-		<p >Game Development</p>
-		<h2>C#</h2>
-		
-	  </header>
+      <div class="author-name">
+        <div class="author-name-prefix" />
+      </div>
+    </div>
+  </article>
 
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="../csharp.svg" alt="svelte-icon">
-		</div>
+  <article class="card" id="csharp-card">
+    <header class="card-header">
+      <p>Game Development</p>
+      <h2>C#</h2>
+    </header>
 
-		<div class="author-name">
-		  <div class="author-name-prefix"></div>
-		</div>
-	  </div>
-	</article>
-	
+    <div class="card-author">
+      <div class="avatar">
+        <img src="../csharp.svg" alt="svelte-icon" />
+      </div>
 
-	
-	<article class="card" id="js-card">
-	  <header class="card-header">
-		
-		<p>Web Development</p>
-		<h2 >JavaScript</h2>
+      <div class="author-name">
+        <div class="author-name-prefix" />
+      </div>
+    </div>
+  </article>
 
-	  </header>
+  <article class="card" id="js-card">
+    <header class="card-header">
+      <p>Web Development</p>
+      <h2>JavaScript</h2>
+    </header>
 
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="../javascript-icon.svg" alt="svelte-icon">
-		</div>
+    <div class="card-author">
+      <div class="avatar">
+        <img src="../javascript-icon.svg" alt="svelte-icon" />
+      </div>
 
-		<div class="author-name">
-		  <div  class="author-name-prefix"></div>
-		</div>
-	  </div>
-	</article>
-	
-	
+      <div class="author-name">
+        <div class="author-name-prefix" />
+      </div>
+    </div>
+  </article>
 
-	<article class="card" id="html-card">
-	  <header class="card-header">
-		<p>Web Development</p>
-		<h2>HTML</h2>
-	  </header>
+  <article class="card" id="html-card">
+    <header class="card-header">
+      <p>Web Development</p>
+      <h2>HTML</h2>
+    </header>
 
-		  <div class="card-author">
-			<div class="avatar">
-				<img src="../html-icon.svg" alt="svelte-icon">
-			</div>
+    <div class="card-author">
+      <div class="avatar">
+        <img src="../html-icon.svg" alt="svelte-icon" />
+      </div>
 
-			<div class="author-name">
-			  <div class="author-name-prefix"></div>
-			</div>
-		  </div>
-	</article>
+      <div class="author-name">
+        <div class="author-name-prefix" />
+      </div>
+    </div>
+  </article>
 
-	<article class="card">
-	  <header class="card-header">
-		<p>Web Development</p>
-		<h2>CSS</h2>
-	  </header>
-	  
-	  <div class="card-author">
-		<div class="avatar">
-			<img src="../css-icon.svg" alt="svelte-icon">
-		</div>
+  <article class="card">
+    <header class="card-header">
+      <p>Web Development</p>
+      <h2>CSS</h2>
+    </header>
 
-		<div class="author-name">
-		  <div class="author-name-prefix"></div>
-		</div>
-	  
-	</article>
+    <div class="card-author">
+      <div class="avatar">
+        <img src="../css-icon.svg" alt="svelte-icon" />
+      </div>
 
-
+      <div class="author-name">
+        <div class="author-name-prefix" />
+      </div>
+    </div>
+  </article>
 </card>
 
 <style>
-    /*CARDS*/
-.card-list {
+  /*CARDS*/
+  .card-list {
     display: flex;
     margin-block: 0rem;
-	padding-block: 1rem;
-	padding-inline-end: 1rem;
+    padding-block: 1rem;
+    padding-inline-end: 1rem;
     overflow-x: scroll;
     overflow-y: hidden;
     cursor: default;
-    }
+  }
 
-    .card-list::-webkit-scrollbar {
+  .card-list::-webkit-scrollbar {
     width: 5px;
     height: 0px;
-    }
+  }
 
-    .card-list::-webkit-scrollbar-thumb {
+  .card-list::-webkit-scrollbar-thumb {
     background: (--color-text);
     border-radius: 1px;
-    }
+  }
 
-    .card {
+  .card {
     height: 240px;
     min-width: 250px;
     padding: 1.5rem;
-    border-radius: 8px;
-	overflow: hidden;
+    border-radius: 0px;
+    overflow: hidden;
     background-color: var(--color-theme-2);
-    }
+  }
 
-    .card:not(:first-child) {
+  .card:not(:first-child) {
     margin-left: 13px;
-    }
+  }
 
-    .card-header {
+  .card-header {
     margin-bottom: auto;
-    }
+  }
 
-    .card-header p {
+  .card-header p {
     font-weight: 500;
     font-size: 13px;
-    margin: 0 0 .5rem;
+    margin: 0 0 0.5rem;
     color: #0e1011;
-    font-family: 'Unbounded';
-    }
+    font-family: "Unbounded";
+  }
 
-	.card-header h2 {
+  .card-header h2 {
     font-size: 20px;
-    font-family: 'Aoboshi One', serif;
+    font-family: "Sometype Mono", monospace;
     font-weight: 100;
-    margin: .30rem .10rem 1rem;
+    margin: 0.3rem 0.1rem 1rem;
     text-decoration: none;
     color: #0e1011;
     border: 0;
     display: inline-block;
     cursor: pointer;
-	}
+  }
 
-	.card-author {
+  .card-author {
     margin: 0 0 0;
     display: grid;
     grid-template-columns: 50px 1fr;
     align-items: center;
     position: relative;
-    font-family: 'Aoboshi One', serif;
+    font-family: "Sometype Mono", monospace;
     align-self: flex-end;
-	}
+  }
 
-	.avatar {
+  .avatar {
     grid-area: auto;
     align-self: start;
     position: relative;
     box-sizing: border-box;
-	}
+  }
 
-	.avatar img {
+  .avatar img {
     width: 200px;
     height: 200px;
     position: relative;
-	margin: 0 0 0 6.6rem;
-	position: absolute;
+    margin: 0 0 0 6.6rem;
+    position: absolute;
     overflow: hidden;
-	filter: invert();
-	}
+  }
 
-    .card img:hover{
-	transition: all 200ms ease-out;
-	filter: invert(0);
-	}
-
-	.author-name {
+  .author-name {
     font-style: normal;
     font-weight: 100;
     color: #0e1011;
-    margin: .5rem;
+    margin: 0.5rem;
     grid-area: auto;
     box-sizing: border-box;
-	}
+  }
 </style>

@@ -55,7 +55,7 @@
   <article class="featured-card" id="bigcard">
     <header class="card-header">
       <p>future</p>
-      <h2>currently exploring the world of Info Tech</h2>
+      <h2>currently a Student and exploring web development</h2>
     </header>
 
     <div class="logos">
@@ -109,8 +109,10 @@
 </card>
 
 <section class="section-contents">
-  <h2 class="big-header">niced!</h2>
-  <p class="paragraph-contents">bingo bango bongo, bish bash bosh</p>
+  <h2 class="big-header">FUTURE PLANS</h2>
+  <p class="paragraph-contents">
+    maka-alis sa pinas at maging isang Software Engineer
+  </p>
 
   <Cards />
 </section>
@@ -118,7 +120,7 @@
 <Frames />
 
 <section class="section-contents">
-  <h2 class="big-header">END</h2>
+  <h2 class="big-header">WHAT' S NEXT?</h2>
 
   <p class="paragraph-contents">wala lang talaga akong mailagay</p>
 </section>

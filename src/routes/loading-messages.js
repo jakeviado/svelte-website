@@ -1,10 +1,9 @@
 export const messages = [
-	"non sense",
+	"you are paranoid",
 	"UI",
 	"UX",
-	"design",
 	"Front End Web Development",
 	"Full Stack Web Development",
 	"Web Design",
-	"Game Development",
+	"Software Engineer",
 ];

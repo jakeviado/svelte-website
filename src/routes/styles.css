@@ -7,13 +7,13 @@
 :root {
 	--font-body: 'Jost';
 	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: rgb(241, 233, 210);
-	--color-bg-1: hsl(45, 53%, 88%);
-	--color-bg-2: hsl(45, 53%, 88%);
-	--color-theme-1: #ea6301;
-	--color-theme-2: #f9f1e4;
+	--color-bg-0: rgb(230, 231, 233);
+	--color-bg-1: hsl(220, 6%, 91%);
+	--color-bg-2: hsl(220, 6%, 91%);
+	--color-theme-1: #e67326;
+	--color-theme-2: #e6e7e9;
     --color-theme-3: #6f0bd8;
-	--color-text: rgb(27, 26, 22);
+	--color-text: rgb(42, 42, 42);
 	--color-text-2: rgb(221, 226, 235);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -126,7 +126,7 @@ p{
 
 .card-header h2 {
     font-size: 20px;
-    font-family: 'Aoboshi One', serif;
+	font-family: 'Sometype Mono', monospace;
     font-weight: 100;
     margin: .30rem .10rem 1rem;
     text-decoration: none;

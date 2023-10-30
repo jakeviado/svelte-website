@@ -1,21 +1,23 @@
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+  <title>About</title>
+  <meta name="description" content="About this app" />
 </svelte:head>
 
 <section class="section-contents">
-	<h2>What the heck is this?</h2>
+  <h2>What the heck is this?</h2>
 
-	<p>
-		This website is made with <a href="https://kit.svelte.dev">Svelte Kit</a> 
-	</p>
+  <p>
+    This website is made with <a href="https://kit.svelte.dev">Svelte</a>
+  </p>
 
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta at vitae itaque, assumenda ex rerum sapiente quidem voluptatibus deserunt, id omnis esse dolorem sit dolores neque voluptatum, soluta expedita illum!
-	</p>
+  <p>
+    I heckin' love my college life because of fuck'n happenings to my life
+    lately - October 30, 2023
+  </p>
 
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quaerat doloremque quasi? Nihil voluptatem esse cupiditate ipsum atque temporibus modi dolores mollitia unde iusto. Non commodi eligendi impedit ullam ipsa.
-	</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quaerat
+    doloremque quasi? Nihil voluptatem esse cupiditate ipsum atque temporibus
+    modi dolores mollitia unde iusto. Non commodi eligendi impedit ullam ipsa.
+  </p>
 </section>
-
