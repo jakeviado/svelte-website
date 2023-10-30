@@ -15,7 +15,7 @@
         <a href="/">Home</a>
       </li>
       <li aria-current={$page.url.pathname === "/about" ? "page" : undefined}>
-        <a href="/about">About</a>
+        <a href="/about">Blogs</a>
       </li>
     </ul>
   </nav>
@@ -32,8 +32,8 @@
   :global(body.dark-mode) {
     background-image: radial-gradient(
         50% 50% at 50% 50%,
-        rgb(21, 23, 25) -0%,
-        rgb(31, 33, 39) 100%
+        rgb(32, 32, 32) -0%,
+        rgb(32, 32, 32) 100%
       ),
       linear-gradient(
         -45deg,

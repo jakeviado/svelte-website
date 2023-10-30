@@ -7,20 +7,21 @@
 :root {
 	--font-body: 'Jost';
 	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: rgb(230, 231, 233);
-	--color-bg-1: hsl(220, 6%, 91%);
-	--color-bg-2: hsl(220, 6%, 91%);
+	--color-bg-0: rgb(255, 255, 255);
+	--color-bg-1: hsl(0, 0%, 100%);
+	--color-bg-2: hsl(0, 0%, 100%);
 	--color-theme-1: #e67326;
-	--color-theme-2: #e6e7e9;
+	--color-theme-2: #ffffff;
     --color-theme-3: #6f0bd8;
 	--color-text: rgb(42, 42, 42);
-	--color-text-2: rgb(221, 226, 235);
+	--color-text-2: rgb(255, 255, 255);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
 	font-weight: 100;
 	color: var(--color-text);
 }
+
 
 body {
 	min-height: 100vh;
@@ -89,7 +90,7 @@ p{
     min-width: max-content;
     height: 5px; 
     border-radius: 8px;
-    background: radial-gradient( #e67e15, #d1aaa5, #d9779f, #ef44b8, #87b7da, #a887dd, #03cbbb);
+    background: radial-gradient( #ff3e00, #a179dc, #280068, #f0db4f, #264de4);
     background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }

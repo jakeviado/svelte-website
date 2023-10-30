@@ -25,7 +25,7 @@
 </svelte:head>
 
 <section class="section-contents">
-  <h2 class="big-header">Welcome</h2>
+  <h2 class="big-header">WELCOME!</h2>
   <p class="paragraph-contents">for future purposes siguro or mema na lang</p>
 
   <article class="card-section1">
@@ -44,7 +44,7 @@
 </section>
 
 <section class="section-contents section-2">
-  <h2 class="big-header">i heckin' love programming</h2>
+  <h2 class="big-header">ABOUT ME</h2>
   <p class="paragraph-contents">
     i really hecking love programming and designing and i want work and money
     hehe
@@ -55,7 +55,7 @@
   <article class="featured-card" id="bigcard">
     <header class="card-header">
       <p>future</p>
-      <h2>currently a Student and exploring web development</h2>
+      <h2>currently a college student and exploring web development</h2>
     </header>
 
     <div class="logos">
@@ -109,7 +109,7 @@
 </card>
 
 <section class="section-contents">
-  <h2 class="big-header">FUTURE PLANS</h2>
+  <h2 class="big-header">FUTURE PLANS, PROJECTS, and SKILLS</h2>
   <p class="paragraph-contents">
     maka-alis sa pinas at maging isang Software Engineer
   </p>
@@ -123,6 +123,12 @@
   <h2 class="big-header">WHAT' S NEXT?</h2>
 
   <p class="paragraph-contents">wala lang talaga akong mailagay</p>
+</section>
+
+<section class="section-contents">
+  <h2 class="big-header">CONTACT INFO</h2>
+
+  <p class="paragraph-contents">SOON!</p>
 </section>
 
 <style>

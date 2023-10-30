@@ -1,6 +1,6 @@
 <svelte:head>
   <title>About</title>
-  <meta name="description" content="About this app" />
+  <meta name="description" content="Blogs" />
 </svelte:head>
 
 <section class="section-contents">

@@ -36,6 +36,23 @@
     </div>
   </article>
 
+  <article class="card">
+    <header class="card-header">
+      <p>Software Development</p>
+      <h2>Java</h2>
+    </header>
+
+    <div class="card-author">
+      <div class="avatar">
+        <img src="../java.svg" alt="svelte-icon" />
+      </div>
+
+      <div class="author-name">
+        <div class="author-name-prefix" />
+      </div>
+    </div>
+  </article>
+
   <article class="card" id="js-card">
     <header class="card-header">
       <p>Web Development</p>
@@ -139,7 +156,7 @@
     font-size: 20px;
     font-family: "Sometype Mono", monospace;
     font-weight: 100;
-    margin: 0.3rem 0.1rem 1rem;
+    margin: 1rem 0.1rem 1rem;
     text-decoration: none;
     color: #0e1011;
     border: 0;
