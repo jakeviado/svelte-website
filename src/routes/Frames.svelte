@@ -1,14 +1,13 @@
 <script>
+  let imagePath = "../some-shit.jpg";
 </script>
 
 <main>
-  <card class="frame-list">
-    <article class="frame-card" background>
-      <header class="frame-header">
-        <h2>oh</h2>
-      </header>
-    </article>
-  </card>
+  <div class="frame-list">
+    <div class="frame-card" style="background-image: url({imagePath})">
+      <header class="frame-header" />
+    </div>
+  </div>
 </main>
 
 <style>
@@ -20,21 +19,20 @@
     cursor: default;
   }
 
-  card {
+  .frame-card {
     align-items: end;
     height: 260px;
-    min-width: 280px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 1.5rem;
     border-radius: 0px;
     background-color: var(--color-bg-1);
-    background-position: center;
-    background-image: url("../some-shit.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: inset;
   }
 
-  .frame-header h2 {
+  /* .frame-header h2 {
     font-size: 24px;
     font-weight: bold;
     font-family: "Unbounded";
@@ -49,5 +47,5 @@
     display: inline-block;
     cursor: pointer;
     padding: 5px;
-  }
+  } */
 </style>

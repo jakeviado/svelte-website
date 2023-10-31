@@ -115,9 +115,8 @@
   </p>
 
   <Cards />
+  <ImageSlider />
 </section>
-
-<ImageSlider />
 
 <Frames />
 
