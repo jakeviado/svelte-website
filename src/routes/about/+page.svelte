@@ -10,10 +10,7 @@
     This website is made with <a href="https://kit.svelte.dev">Svelte</a>
   </p>
 
-  <p>
-    I heckin' love my college life because of fuck'n happenings in my life
-    lately - October 30, 2023
-  </p>
+  <p>UPDATE: Some assets are just a placeholder - October 30, 2023</p>
 
   <p>test lang HAHAHAHA - October 30, 2023</p>
   <p>
