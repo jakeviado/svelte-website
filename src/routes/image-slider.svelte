@@ -26,14 +26,17 @@
     <!-- <h2>placeholder</h2> -->
   </div>
 
-  <button class="btn" on:click={prev}>PREVIOUS</button>
-  <button class="btn" on:click={next}>NEXT</button>
+  <div class="btn-container">
+    <button class="btn" on:click={prev}>PREV</button>
+    <button class="btn" on:click={next}>NEXT</button>
+  </div>
 </div>
 
 <style>
   .slider {
-    margin: 10px auto;
+    margin: 30px auto;
     width: 100%;
+    justify-content: center;
   }
   .slider-img {
     object-fit: contain;
@@ -45,7 +48,6 @@
     height: 360px;
     width: 100%;
     display: flex;
-    justify-content: center;
   }
   .img-box img {
     background-repeat: no-repeat;
@@ -74,13 +76,24 @@
     cursor: pointer;
     padding: 5px;
   } */
+  .btn-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  @media (max-width: 768px) {
+    .btn {
+      font-size: 8px;
+      padding: 5px 12px;
+    }
+  }
   .btn {
     font-family: "Unbounded";
     border: none;
     outline: none;
     background: #88888800;
-    padding: 10px 30px;
-    font-size: 15px;
+    padding: 10px 20px;
+    font-size: 10px;
     color: #000000;
     cursor: pointer;
     margin: 10px auto;
