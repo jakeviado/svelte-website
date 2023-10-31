@@ -1,7 +1,6 @@
 <script>
   import Frames from "./Frames.svelte";
   import Cards from "./Cards.svelte";
-  import ImageSlider from "./image-slider.svelte";
   import { onMount } from "svelte";
   import { typewriter } from "./transition.js";
   import { messages } from "./loading-messages.js";
@@ -115,7 +114,6 @@
   </p>
 
   <Cards />
-  <ImageSlider />
 </section>
 
 <Frames />
