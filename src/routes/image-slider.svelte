@@ -78,7 +78,7 @@
   } */
   .btn-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   @media (max-width: 768px) {
