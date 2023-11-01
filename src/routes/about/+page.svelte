@@ -4,10 +4,11 @@
 </svelte:head>
 
 <section class="section-contents">
-  <h2>What the heck is this?</h2>
+  <h2>WHAT THE HECK IS THIS?</h2>
 
   <p>
-    This website is made with <a href="https://kit.svelte.dev">Svelte</a>
+    This website is made with <a href="https://kit.svelte.dev">Svelte Kit</a>
+    and <a href="https://svelte.dev/">Svelte</a>
   </p>
 
   <p>UPDATE: Some assets are just a placeholder - October 30, 2023</p>

@@ -103,6 +103,23 @@
       </div>
     </div>
   </article>
+
+  <article class="card" id="html-card">
+    <header class="card-header">
+      <p>Others</p>
+      <h2>Blender</h2>
+    </header>
+
+    <div class="card-author">
+      <div class="avatar">
+        <img src="../blender.svg" alt="svelte-icon" />
+      </div>
+
+      <div class="author-name">
+        <div class="author-name-prefix" />
+      </div>
+    </div>
+  </article>
 </card>
 
 <style>
